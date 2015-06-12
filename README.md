@@ -15,8 +15,9 @@ To get this to work you:
 Whenever the user logs in:
 
 1. The user enters the number from the authenticator application into the login form.
-2. The server compares the user input with the output from generateCurrentNumber(...).
-3. If they are equal then the user is allowed to log in.
+2. Server looks up the secret associated with the user in the database.
+3. The server compares the user input with the output from generateCurrentNumber(...).
+4. If they are equal then the user is allowed to log in.
 
 Thanks to Vijay Boyapati @ stackoverflow for initial code.
 
