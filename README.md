@@ -22,3 +22,5 @@ Whenever the user logs in:
 Thanks to Vijay Boyapati @ stackoverflow for initial code.
 
 http://stackoverflow.com/questions/25534193/google-authenticator-implementation-in-perl
+
+NOTE: this script depends on Digest::HMAC_SHA1
